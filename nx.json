@@ -16,9 +16,12 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "accessToken": "NGI4MWVjM2QtZTQ0NC00OGU1LTlmNGQtMDA3MTExZTM1NzkyfHJlYWQtd3JpdGU=",
+        "cacheableOperations": ["build", "test", "lint", "e2e"],
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
@@ -29,6 +32,20 @@
     "demo-e2e": {
       "tags": [],
       "implicitDependencies": ["demo"]
+    },
+    "myblog": {
+      "tags": []
+    },
+    "myblog-e2e": {
+      "tags": [],
+      "implicitDependencies": ["myblog"]
+    },
+    "century-tree-pro": {
+      "tags": []
+    },
+    "century-tree-pro-e2e": {
+      "tags": [],
+      "implicitDependencies": ["century-tree-pro"]
     }
   }
 }

@@ -2,3 +2,11 @@
 
 /dist
 /coverage
+
+/apps/myblog/node_modules
+/apps/myblog/public
+/apps/myblog/.cache
+
+/apps/century-tree-pro/node_modules
+/apps/century-tree-pro/public
+/apps/century-tree-pro/.cache
