@@ -1,0 +1,22 @@
+{
+  "description": "<p></p>",
+  "cta": "<p></p>",
+  "contact": {
+    "email": "",
+    "twitter_handle": "",
+    "github_handle": ""
+  },
+  "background_color": "#B1BCBC",
+  "vimeo_feature": "<iframe src=\\\"https://vimeo.com/showcase/6311716/embed\\\" width=\\\"700\\\" height=\\\"394\\\" frameborder=\\\"0\\\" allowfullscreen=\\\"allowfullscreen\\\"><span data-mce-type=\\\"bookmark\\\" style=\\\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\\\" class=\\\"mce_SELRES_start\\\">﻿</span></iframe>",
+  "grid_items": [
+    {
+      "title": "John",
+      "description": "Info Here",
+      "image": "",
+      "profile_picture": "/content/images/John.jpeg"
+    }
+  ],
+  "client_image": "",
+  "client_info": "",
+  "client_image_test": "/content/images/Screen Shot 2020-04-18 at 2.00.31 PM.png"
+}

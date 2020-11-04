@@ -1,0 +1,28 @@
+---
+label: Home Page
+hide_body: true
+fields:
+- type: textarea
+  name: vimeo_feature
+  label: vimeo_feature
+- type: field_group_list
+  name: grid_items
+  label: grid_items
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: description
+    label: description
+  - type: text
+    name: image
+    label: image
+- type: textarea
+  name: client_image
+  label: client_image
+- type: textarea
+  name: client_info
+  label: client_info
+pages:
+- content/data/home.json

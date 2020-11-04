@@ -1,0 +1,83 @@
+  
+ html, body {
+    /* padding: 2%; */
+    font-family: 'Cutive', serif !important;
+    /* background-color: #1e1548; */
+    overflow-y: auto;
+  } 
+
+  .vertical-timeline-element-content{
+    color: #fff;
+    box-shadow: none !important;
+  }
+  .wrapper {
+          display: grid;
+    height: 100%;
+    width: 100%;
+          /* grid-template-columns: repeat(2,1fr); */
+          grid-template-columns: [col1-start] 75% [col2start] auto [col3-start] auto [col3-end];
+          grid-template-rows: [row1-start] 65% [row2-start] auto [row3-start] auto [row3-end];
+          grid-auto-rows: auto;
+          /* grid-template-columns: [col1-start] 80%  [col3-start] auto [col3-end]; */
+          /* grid-template-rows: [row1-start] auto [row2-start] auto [row2-end] auto [row3-start] auto [row4-start]; */
+          /* grid-template-rows: [row1-start] auto [row2-start] auto [row2-end] [row3-start] auto [row3-end]; */
+          background-color: #EE8572;
+          color: #444;
+      }
+  
+      .box {
+  
+      }
+  
+      .a {
+        grid-column: col1-start / col3-start;
+        grid-row: row1-start / row2-start;
+        background-color: #EE8572;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+      }
+      .b {
+        grid-column: col3-start ;
+        grid-row: row1-start / row3-start;
+        background-color: #63B7AF;
+        box-shadow: 0px 4px 22px #090909;
+
+      }
+      .c {
+        grid-column: col1-start / col3-start;
+        grid-row: row3-start ;
+        background: #2c6262;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+
+      /* .d {
+        grid-column: col3-start ;
+        grid-row-start: 2;
+        grid-row-end: 3;
+          background-color: #35495E;
+        } */
+        .e {
+           grid-column: col3-start ;
+           grid-row: row3-start ;
+           background-color: #EE8572;
+        }
+
+        @media (max-width: 800px) {
+          .a{ 
+            grid-column: col1-start / col3-end;
+            grid-row: row1-start ;
+          }
+          .b {
+            grid-column: col1-start / col3-end ;
+            grid-row: row1-start / row3-start;
+            background-color: #63B7AF;
+            box-shadow: 0px 4px 22px #090909;
+          }
+          .c {
+            grid-column: col1-start / col3-start;
+            grid-row: row3-start ;
+            background: #2c6262;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+
+        }

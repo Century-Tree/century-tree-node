@@ -1,0 +1,143 @@
+#section-1-18>.ct-section-inner-wrap {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center
+}
+
+#section-1-18 {
+	text-align: left;
+}
+
+#div_block-8-18 {
+	text-align: left;
+	flex-direction: row;
+	display: flex
+}
+
+#div_block-4-18 {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-right: auto;
+	text-align: right;
+	width: 300px
+}
+
+#div_block-10-18 {
+	width: 300px
+}
+
+@media (max-width:767px) {
+	#div_block-8-18 {
+		flex-direction: column;
+		display: flex;
+		align-items: center
+	}
+}
+
+@media (max-width:767px) {
+	#div_block-4-18 {
+		flex-direction: column;
+		display: flex;
+		align-items: center
+	}
+}
+
+@media (max-width:767px) {
+	#div_block-10-18 {
+		height: 10px;
+		min-height: 10px
+	}
+}
+
+#text_block-2-18 {
+	text-align: center;
+	color: #9beeff;
+	font-family: 'Source Sans Pro';
+	text-transform: uppercase;
+	line-height: 1
+}
+
+@media (max-width:767px) {
+	#text_block-2-18 {
+		font-size: 12px
+	}
+}
+
+#image-6-18 {
+	width: 150px;
+	height: 92px
+}
+
+#_social_icons-7-18.oxy-social-icons {
+	flex-direction: row;
+	margin-right: -10px;
+	margin-bottom: -10px
+}
+
+#_social_icons-7-18.oxy-social-icons a {
+	font-size: 24px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-facebook svg {
+	color: #3b5998
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-facebook:hover svg {
+	color: #5b79b8
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-instagram svg {
+	color: #c32aa3
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-instagram:hover svg {
+	color: #e34ac3
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-twitter svg {
+	color: #00b6f1
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-twitter:hover svg {
+	color: #20d6ff
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-linkedin svg {
+	color: #007bb6
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-linkedin:hover svg {
+	color: #209bd6
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-rss svg {
+	color: #ee802f
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-rss:hover svg {
+	color: #ffa04f
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-youtube svg {
+	color: #ff0000
+}
+
+#_social_icons-7-18.oxy-social-icons a.oxy-social-icons-youtube:hover svg {
+	color: #ff4444
+}
+
+#_social_icons-7-18.oxy-social-icons a svg {
+	width: 1em;
+	height: 1em
+}
+
+#_social_icons-7-18 {
+	border-radius: 5px;
+	padding-bottom: 7px
+}

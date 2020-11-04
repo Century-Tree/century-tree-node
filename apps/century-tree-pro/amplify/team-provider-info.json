@@ -1,0 +1,15 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-centurytree-master-113610-authRole",
+            "UnauthRoleArn": "arn:aws:iam::926487597039:role/amplify-centurytree-master-113610-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::926487597039:role/amplify-centurytree-master-113610-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-centurytree-master-113610-deployment",
+            "UnauthRoleName": "amplify-centurytree-master-113610-unauthRole",
+            "StackName": "amplify-centurytree-master-113610",
+            "StackId": "arn:aws:cloudformation:us-east-1:926487597039:stack/amplify-centurytree-master-113610/7f3270d0-8253-11ea-8077-121fa677fe9a",
+            "AmplifyAppId": "d2l4llu6pfqozj"
+        }
+    }
+}

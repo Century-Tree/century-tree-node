@@ -1,0 +1,25 @@
+{
+  "vimeo_feature": "<iframe src=\"https://vimeo.com/showcase/6311716/embed\" width=\"700\" height=\"394\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"><span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span></iframe>",
+  "grid_items": [
+    {
+      "title": "Johnny Freeman",
+      "description": "Media producer and Filmmaker with over 13 years experience producing and managing corporate, social and consumer facing videos and presentations.",
+      "image": "https://app.forestry.io/sites/ulertxsxoscqma/front-matter-media/content/images/John.jpeg",
+      "profile_picture": "/content/images/John.jpeg"
+    },
+    {
+      "title": "Chris",
+      "description": "Some Info",
+      "image": "https://s3.amazonaws.com/www.johnfreemanproductions.com/Chris.jpg",
+      "profile_picture": "/content/images/Chris.jpg"
+    },
+    {
+      "title": "Videographers",
+      "description": "Concept • Write • Shoot • Edit • Communicate",
+      "image": "https://uploads-ssl.webflow.com/5bcb5ee81fb2091a2ec550c7/5d1d7ef4984028afd725957f_gamer-monochrome-thumbnail.png",
+      "profile_picture": ""
+    }
+  ],
+  "client_image": "https://s3.amazonaws.com/www.johnfreemanproductions.com/Screen+Shot+2020-04-19+at+5.52.05+PM.png",
+  "client_info": "Producer of corporate and consumer facing videos and presentations. Pre-production, shoot, light, edit, and distribute video projects and presentations. Filmmaker overseeing several video and film shoots in the NY area."
+}
