@@ -46,6 +46,13 @@
     "century-tree-pro-e2e": {
       "tags": [],
       "implicitDependencies": ["century-tree-pro"]
+    },
+    "children-place-five-five": {
+      "tags": []
+    },
+    "children-place-five-five-e2e": {
+      "tags": [],
+      "implicitDependencies": ["children-place-five-five"]
     }
   }
 }
